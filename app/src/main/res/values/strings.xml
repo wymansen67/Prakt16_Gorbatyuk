@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Prakt16</string>
+    <string name="time1">7:30</string>
+    <string name="time2">8:00</string>
 </resources>

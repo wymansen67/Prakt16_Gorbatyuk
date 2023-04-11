@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".CalendarActivity"
     android:orientation="vertical"
-    android:background="#60D394">
+    android:background="@color/bgColor">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -46,5 +46,59 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="288dp"
+        android:layout_height="72dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/shapehalfround"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="65dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/listbutton"
+                android:background="@color/bottomGreen"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/alarmbutton"
+                android:background="@color/bottomGreen"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/calendarbutton"
+                android:background="@color/bottomGreen"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/settingsbutton"
+                android:background="@color/bottomGreen"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
