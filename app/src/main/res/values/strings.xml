@@ -2,4 +2,9 @@
     <string name="app_name">Prakt16</string>
     <string name="time1">7:30</string>
     <string name="time2">8:00</string>
+    <string name="alarmAdd">Добавить будильник</string>
+    <string name="generalbutton">Добавить задачу</string>
+    <string name="blockthreemaintext">Запись в автосервис</string>
+    <string name="blocktwomaintext">Забрать заказ Ozon</string>
+    <string name="blockonemaintext">Вечерний поход в кино</string>
 </resources>

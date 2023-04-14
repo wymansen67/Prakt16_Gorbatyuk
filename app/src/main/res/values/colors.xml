@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bgColor">#60D394</color>
     <color name="bottomGreen">#AAF683</color>
+    <color name="zheltii">#FFD97D</color>
+    <color name="textColorTask">#E5E5E5</color>
 </resources>
